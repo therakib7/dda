@@ -1,0 +1,495 @@
+# Copyright (C) 2021 DDA Project
+# This file is distributed under the same license as the DDA Project package.
+msgid ""
+msgstr ""
+"Project-Id-Version: DDA Project\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: %s template
+#: ../includes/Helpers/Functions.php:82
+msgid "%s does not exist."
+msgstr ""
+
+#: ../templates/reviews.php:44
+msgid "Reviewed by %s customer"
+msgid_plural "Reviewed by %s customers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/reviews.php:56
+msgid "Sort:"
+msgstr ""
+
+#: ../templates/reviews.php:58
+msgid "All Review"
+msgstr ""
+
+#: ../templates/reviews.php:60
+msgid "Top Rated"
+msgstr ""
+
+#: ../templates/reviews.php:62
+msgid "Low Rated"
+msgstr ""
+
+#: ../templates/reviews.php:64
+msgid "Recommended"
+msgstr ""
+
+#: ../templates/reviews.php:66
+msgid "Highlighted"
+msgstr ""
+
+#: ../templates/reviews.php:68
+msgid "Latest First"
+msgstr ""
+
+#: ../templates/reviews.php:70
+msgid "Oldest First"
+msgstr ""
+
+#: ../templates/reviews.php:79
+msgid "Filter:"
+msgstr ""
+
+#: ../templates/reviews.php:81
+msgid "All Star"
+msgstr ""
+
+#: ../templates/reviews.php:82
+msgid "5 Star"
+msgstr ""
+
+#: ../templates/reviews.php:83
+msgid "4 Star"
+msgstr ""
+
+#: ../templates/reviews.php:84
+msgid "3 Star"
+msgstr ""
+
+#: ../templates/reviews.php:85
+msgid "2 Star"
+msgstr ""
+
+#: ../templates/reviews.php:86
+msgid "1 Star"
+msgstr ""
+
+#: ../templates/reviews.php:123
+msgid "Load More"
+msgstr ""
+
+#: ../templates/affiliate/layout-four.php:35, ../templates/affiliate/layout-three.php:43, ../templates/affiliate/layout-two.php:31, ../templates/summary/layout-four.php:27, ../templates/summary/layout-three.php:40, ../templates/summary/layout-two.php:29
+msgid "OVERALL"
+msgstr ""
+
+#: ../templates/affiliate/layout-four.php:75, ../templates/affiliate/layout-two.php:75
+msgid "Pros"
+msgstr ""
+
+#: ../templates/affiliate/layout-four.php:90, ../templates/affiliate/layout-two.php:91
+msgid "Cons"
+msgstr ""
+
+#: ../templates/affiliate/layout-one.php:32, ../templates/affiliate/layout-three.php:51, ../templates/summary/layout-one.php:28, ../templates/summary/layout-three.php:47
+msgid "Based on %s rating"
+msgid_plural "Based on %s ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/affiliate/layout-one.php:54, ../templates/summary/layout-one.php:50
+msgid "<span>%s</span>Customer"
+msgid_plural "<span>%s</span>Customers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/affiliate/layout-one.php:59, ../templates/summary/layout-one.php:55
+msgid "Recommended this item"
+msgstr ""
+
+#: ../templates/affiliate/layout-one.php:90, ../templates/affiliate/layout-three.php:64, ../templates/affiliate/layout-two.php:61
+msgid "Summery"
+msgstr ""
+
+#: ../templates/partials/attachment.php:45
+msgid "DDA Project"
+msgstr ""
+
+#: ../templates/partials/helpful.php:31
+msgid "Helpful?"
+msgstr ""
+
+#: ../templates/partials/helpful.php:29
+msgid "Please login to like"
+msgstr ""
+
+#: ../templates/partials/helpful.php:53
+msgid "Not helpful?"
+msgstr ""
+
+#: ../templates/partials/helpful.php:51
+msgid "Please login to dislike"
+msgstr ""
+
+#: ../templates/partials/highlight.php:17
+msgid "Remove Highlight?"
+msgstr ""
+
+#: ../templates/partials/highlight.php:17
+msgid "Highlight?"
+msgstr ""
+
+#: ../templates/partials/pros-cons.php:23
+msgid "PROS"
+msgstr ""
+
+#: ../templates/partials/pros-cons.php:37
+msgid "CONS"
+msgstr ""
+
+#: ../templates/partials/share.php:16
+msgid "Share:"
+msgstr ""
+
+#: ../templates/review/layout-four.php:49, ../templates/review/layout-one.php:73, ../templates/review/layout-three.php:61, ../templates/review/layout-two.php:61
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../templates/review/layout-four.php:62, ../templates/review/layout-one.php:36, ../templates/review/layout-three.php:36, ../templates/review/layout-two.php:43
+msgid "By:"
+msgstr ""
+
+#: ../templates/review/layout-four.php:65, ../templates/review/layout-one.php:52, ../templates/review/layout-three.php:39, ../templates/review/layout-two.php:46
+msgid "ago"
+msgstr ""
+
+#: ../templates/review/layout-four.php:70, ../templates/review/layout-one.php:58, ../templates/review/layout-three.php:44, ../templates/review/layout-two.php:52
+msgid "(Edit)"
+msgstr ""
+
+#: ../templates/review/layout-one.php:38
+msgid "Anonymous"
+msgstr ""
+
+#: ../views/settings/media-settings.php:10
+msgid "jpg"
+msgstr ""
+
+#: ../views/settings/media-settings.php:11
+msgid "jpeg"
+msgstr ""
+
+#: ../views/settings/media-settings.php:12
+msgid "png"
+msgstr ""
+
+#: ../views/settings/media-settings.php:13
+msgid "gif"
+msgstr ""
+
+#: ../views/settings/media-settings.php:17
+msgid "mp4"
+msgstr ""
+
+#: ../views/settings/media-settings.php:18
+msgid "m4v"
+msgstr ""
+
+#: ../views/settings/media-settings.php:19, ../views/settings/media-settings.php:23
+msgid "mov"
+msgstr ""
+
+#: ../views/settings/media-settings.php:20
+msgid "wmv"
+msgstr ""
+
+#: ../views/settings/media-settings.php:21
+msgid "avi"
+msgstr ""
+
+#: ../views/settings/media-settings.php:22
+msgid "mpg"
+msgstr ""
+
+#: ../views/settings/media-settings.php:24
+msgid "ogv"
+msgstr ""
+
+#: ../views/settings/media-settings.php:25
+msgid "3gp"
+msgstr ""
+
+#: ../views/settings/media-settings.php:26
+msgid "3g2"
+msgstr ""
+
+#: ../views/settings/media-settings.php:31
+msgid "Image Upload Settings"
+msgstr ""
+
+#: ../views/settings/media-settings.php:35
+msgid "Image Max Size"
+msgstr ""
+
+#: ../views/settings/media-settings.php:39, ../views/settings/media-settings.php:61
+msgid "Change the value as KB, Like 1M = 1024KB"
+msgstr ""
+
+#: ../views/settings/media-settings.php:42
+msgid "Supported Image Type"
+msgstr ""
+
+#: ../views/settings/media-settings.php:53
+msgid "Video Upload Settings"
+msgstr ""
+
+#: ../views/settings/media-settings.php:57
+msgid "Video Max Size"
+msgstr ""
+
+#: ../views/settings/media-settings.php:64
+msgid "Supported Video Type"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:13
+msgid "Site Info"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:17
+msgid "Enable site schema"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:22
+msgid "Home page only"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:23
+msgid "Sitewide (Apply General Settings schema sitewide)"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:24
+msgid "Turn off (Turn off global schema)"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:31
+msgid "Web URL"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:35
+msgid "Category"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:40, ../views/settings/schema-settings.php:119
+msgid "Select One"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:41
+msgid "Use the most appropriate schema category for local business"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:46
+msgid "Name"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:52
+msgid "Alternate Name"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:56
+msgid "Image"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:60
+msgid "Business Logo"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:61
+msgid "The image must be 112x112px, at minimum."
+msgstr ""
+
+#: ../views/settings/schema-settings.php:66
+msgid "Price Range"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:68
+msgid "The price range of the business, for example $$$."
+msgstr ""
+
+#: ../views/settings/schema-settings.php:73
+msgid "Site Telephone"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:79
+msgid "Same As"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:80
+msgid "http://example1.com&#10;http://example1.com"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:81
+msgid "Add additional url per line which are same as this site"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:84, ../views/settings/schema-settings.php:90
+msgid "Address"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:95
+msgid "Street Address"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:100
+msgid "Address Locality"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:101
+msgid "City (i.e Melbourne)"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:106
+msgid "Address Region"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:107
+msgid "State (i.e. Victoria)"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:112
+msgid "Postal Code"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:115
+msgid "Country"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:124
+msgid "Geo Coordinates"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:128
+msgid "Latitude"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:133
+msgid "Longitude"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:138
+msgid "Radius"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:144
+msgid "Site Others Info"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:150
+msgid "Description"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:155
+msgid "Opening Hours"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:156
+msgid "Monday 11:00-14:30&#10;Tuesday 17:00-21:30"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:157
+msgid ""
+"- Days are specified with the day name. Like: Monday, Tuesday</br>\n"
+"        - Times are specified using 24:00 time. For example, 3PM is specified as 15:00. <br>\n"
+"        - Add Opening Hours by separate line. Like: Monday 10:00-18:00"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:164
+msgid "Serves Cuisine"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:169
+msgid "Restaurant Menu URL"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:172
+msgid "Accepts Reservations"
+msgstr ""
+
+#: ../views/settings/schema-settings.php:174
+msgid "Accept"
+msgstr ""
+
+#: ../views/settings/support-settings.php:13
+msgid "Go to our online documentation to get support"
+msgstr ""
+
+#: ../views/settings/support-settings.php:14
+msgid "We offer excellent support through our advanced ticket system.<br> Make sure to register your purchase first to access our support services and other resources."
+msgstr ""
+
+#: ../views/settings/support-settings.php:14
+msgid "Online documentation"
+msgstr ""
+
+#: ../views/settings/woocommerce-settings.php:11
+msgid "Brand name"
+msgstr ""
+
+#: ../views/settings/woocommerce-settings.php:17
+msgid "Identifier Type"
+msgstr ""
+
+#: ../views/settings/woocommerce-settings.php:21
+msgid "MPN"
+msgstr ""
+
+#: ../views/settings/woocommerce-settings.php:22
+msgid "ISBN"
+msgstr ""
+
+#: ../views/settings/woocommerce-settings.php:23
+msgid "GTIN-8 (UPC, JAN)"
+msgstr ""
+
+#: ../views/settings/woocommerce-settings.php:24
+msgid "GTIN-12 (UPC)"
+msgstr ""
+
+#: ../views/settings/woocommerce-settings.php:25
+msgid "GTIN-13 (EAN,JAN)"
+msgstr ""
+
+#: ../views/settings/woocommerce-settings.php:27
+msgid ""
+"<strong>MPN</strong><br>\n"
+"                    &#8594; MPN(Manufacturer Part Number) Used globally, Alphanumeric digits (various lengths)<br>\n"
+"                    <strong>GTIN</strong><br>\n"
+"                    &#8594; UPC(Universal Product Code) Used in primarily North America. 12 numeric digits. eg. 892685001003.<br>\n"
+"                    &#8594; EAN(European Article Number) Used primarily outside of North America. Typically 13 numeric digits (can occasionally be either eight or 14 numeric digits). eg. 4011200296908<br>\n"
+"                    &#8594; ISBN(International Standard Book Number) Used globally, ISBN-13 (recommended), 13 numeric digits 978-0747595823<br>\n"
+"                    &#8594; JAN(Japanese Article Number) Used only in Japan, 8 or 13 numeric digits."
+msgstr ""
+
+#: ../views/settings/woocommerce-settings.php:37
+msgid "Identifier value"
+msgstr ""
+
+#: ../views/widgets/review-schema.php:2
+msgid "Title:"
+msgstr ""
+
+#: ../views/widgets/review-schema.php:7
+msgid "Select Affiliate:"
+msgstr ""
+
+#: ../views/widgets/review-schema.php:9
+msgid "Select"
+msgstr ""

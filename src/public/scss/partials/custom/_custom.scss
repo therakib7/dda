@@ -1,0 +1,409 @@
+
+// rating code
+.exdda-comments-rating {
+	border: none;
+	padding: 0;
+	margin-left: 0;
+}
+
+.exdda-comments-rating label {
+	display: inline-block;
+}
+
+.exdda-rating-container {
+	/* remove inline-block whitespace */
+	font-size: 0;
+	/* flip the order so we can use the + and ~ combinators */
+	unicode-bidi: bidi-override;
+	direction: rtl;
+}
+
+.exdda-rating-container * {
+	font-size: 1.4rem;
+}
+
+.exdda-rating-container > input {
+	display: none;
+}
+
+.exdda-rating-container > input + label {
+	/* only enough room for the star */
+	font-family: 'fontello';
+	display: inline-block;
+	overflow: hidden;
+	text-indent: 9999px;
+	width: 15px;
+	white-space: nowrap;
+	cursor: pointer;
+	margin: 0;
+	margin-right: 5px;
+	font-size: 16px;
+}
+
+.exdda-rating-container > input + label:before {
+	display: inline-block;
+	text-indent: -9999px;
+	content: '\e808';
+	color: #888;
+}
+
+.exdda-rating-container > input:checked ~ label:before,
+.exdda-rating-container > input + label:hover ~ label:before,
+.exdda-rating-container > input + label:hover:before {
+	content: '\e800';
+	color: #ffb300; 
+}  
+.exdda-rating-container:hover > input + label:hover ~ label:before,
+.exdda-rating-container:hover > input + label:hover:before {
+	content: '\e800';
+	color: #ffb300; 
+}
+
+.exdda-review-form .exdda-rating-container > .star-cb-clear + label, .exdda-review-form .exdda-rating-container > input + label:before {
+	text-indent: 9999px;
+}
+.exdda-review-form .exdda-rating-container > input + label {
+	text-indent: -9999px;
+}
+
+//Todo: remove pagination all after match new pagination 
+.exdda-paginate {
+	margin: 10px 0 20px 0;
+	padding: 5px 1px 5px;
+	text-align: right;
+}   
+.exdda-paginate a {
+	padding: 7px 14px 7px; 
+	text-decoration: none !important; 
+	color: #666 !important;
+	border-radius: 4px; 
+	background-color: #efefef;
+}
+.exdda-paginate a.prev, .exdda-paginate a.next {
+	background-color: #d0d0d0;
+	color: #fff;
+	padding: 7px 4px 7px;
+}
+.exdda-paginate a:hover, .exdda-paginate a:active, .exdda-paginate a:focus {  
+	background-color: #646464 !important;
+    color: #fff !important;
+}
+.exdda-paginate .current {
+	padding: 7px 14px 7px;  
+    background-color: #646464;
+    color: #fff;
+    border-radius: 4px;
+}
+ 
+//Todo: add parent class so that it can not affet to others
+.exdda-review-form {
+	margin-top: 0 !important;
+} 
+
+.exdda-review-body .exdda-action-area button[data-helpful="remove"], .exdda-review-body .exdda-action-area button[data-highlight="remove"] {
+	background-color: #646464 !important;
+    color: #fff !important;
+} 
+.exdda-review-body .exdda-action-area button[data-helpful="remove"] i:before, .exdda-review-body .exdda-action-area button[data-highlight="remove"] i:before { 
+    color: #fff !important;
+}
+
+//image upload
+.exdda-preview-imgs .exdda-preview-img img, .exdda-preview-videos .exdda-preview-video .name {
+	width: auto; 
+	max-width: 130px; 
+	background: white;
+	border: 1px solid #e1e1e1;
+    padding: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+	min-height: 40px;
+	vertical-align: top;
+}
+.exdda-preview-imgs .exdda-preview-img, .exdda-preview-videos .exdda-preview-video {
+	position: relative;
+	display: inline;
+}
+.exdda-preview-imgs .exdda-preview-img .exdda-file-remove, .exdda-preview-videos .exdda-preview-video .exdda-file-remove {
+	background: #af3232;
+    line-height: 17px;
+    padding: 0 6px 3px;
+    color: white; 
+	position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+//frontend image video upload
+.exdda-image-error, .exdda-video-error {
+	color: red;
+}
+#exdda-video-source {
+	width: 160px;
+}
+//all review area center
+.exdda-review-wrap {
+	margin: auto;
+}
+.exdda-align-center {
+	text-align: center;
+}
+
+//button color fixing 
+.exdda-review-box .exdda-review-body .reply-btn .exdda-item-btn {
+    background-color: #a6a6a6 !important; 
+	text-decoration: none !important;
+	outline: none;
+}
+
+.exdda-review-form .exdda-form-group .exdda-submit-btn {
+	color: white !important;
+	outline: none;
+}
+//hide field from reply in comment
+.exdda-review-list .exdda-review-form .exdda-hide-reply {
+	display: none;
+}
+
+#cancel-comment-reply-link {
+	margin-left: 10px;
+}
+.children .exdda-main-review {
+	margin-top: 20px;
+}
+.exdda-main-review.depth-2 .reply-btn {
+	display: none;
+}
+#exdda-load-more {
+	font-size: 16px; 
+    color: #fff;
+    background-color: #444444;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 4px;
+	text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+#exdda-load-more:hover {
+	background-color: #646464;
+}
+
+//like dislike tooltip
+.exdda-tooltip {
+	position: relative;
+	display: inline-block; 
+} 
+.exdda-tooltip .exdda-tooltiptext {
+	visibility: hidden;
+	min-width: 80px;
+	width: max-content;
+    max-width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 10px 7px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 70%;
+    margin-left: -60px;
+    line-height: 1;
+    font-size: 15px;
+} 
+.exdda-tooltip:hover .exdda-tooltiptext {
+	visibility: visible;
+}
+
+.exdda-review-wrap  ul {
+	border-bottom: none !important;
+}
+.woocommerce-tabs ul li {
+	display: auto;
+}
+ 
+.exdda-main-review + .exdda-review-form {
+	margin-bottom: 20px; 
+}
+.exdda-form-box .logged-in-as {
+	margin-bottom: 20px; 
+}
+
+// Todo: hasan vai last css
+.exdda-review-box .exdda-review-body .exdda-review-author a {
+	padding: 0;
+} 
+.exdda-review-form .exdda-form-group .exdda-submit-btn {
+	float: initial !important;
+}
+.woocommerce-tabs #comments {
+	max-width: 100%; 
+}
+.exdda-review-box .exdda-main-review {
+	display: block !important;
+} 
+.exdda-review-box .exdda-review-body .exdda-review-item-media .exdda-media-video .exdda-video-icon i {
+	line-height: 20px;
+}
+.exdda-review-box .exdda-review-body .exdda-review-feedback .exdda-feedback-list li {
+	display: block !important;
+}
+.exdda-review-box .exdda-review-body .reply-btn .exdda-item-btn {
+	font-weight: 400;
+}
+//affiliate layout
+.exdda-clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.exdda-review-wrap.exdda-affiliate-wrap {
+	padding: 0;
+} 
+.exdda-title h3 {
+	font-size: 24px;
+    line-height: 1.5;
+    float: left;
+    font-weight: 500;
+}
+.exdda-price-area {
+	float: right;
+}
+.exdda-price-area .exdda-offer-price { 
+	font-size: 28px;
+    line-height: 1;
+}
+.exdda-price-area .exdda-regular-price { 
+	text-decoration: line-through;
+}
+.exdda-buy-btn {
+	border: 2px solid #5F5B5C;
+    color: #5F5B5C !important;
+    text-align: center;
+    text-decoration: none !important;
+    font-size: 16px;
+    line-height: 1;
+    padding: 13px 40px;
+    border-radius: 4px;
+    display: table;
+    margin: auto;
+    margin-top: 20px;
+}
+.exdda-buy-btn:hover {
+	background-color: #5F5B5C;
+    color: #fff !important;
+}
+.exdda-product-img img {
+	width: 220px;
+}
+
+//review edit
+.exdda-modal {
+	position: fixed; /* Stay in place */
+	z-index: 999; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+.exdda-review-popup {
+	width: 800px;
+    position: fixed;
+    overflow: auto;
+    top: 10%;
+    left: 50%;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 80%;
+}
+.exdda-review-edit-btn {
+	cursor: pointer;
+}
+.exdda-form-box .exdda-form-group .exdda-input-label {
+	display: none;
+}  
+.exdda-affiliate-no-stroke circle {
+	stroke: transparent !important;
+}
+
+/* CSS Fixing by themes */
+
+/**
+* TwentyTwenty 
+*/ 
+.theme-twentytwenty .exdda-review-wrap li, .theme-twentynineteen .exdda-review-wrap li {
+	margin-left: 0;
+	margin-right: 0;
+}
+.theme-twentytwenty .exdda-review-wrap .logged-in-as {
+	margin: 0;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.theme-twentytwenty .exdda-review-list label {
+	display: inline;
+}
+.theme-twentytwenty .exdda-sorting-select label {
+	display: inline;
+} 
+.theme-twentynineteen .exdda-review-wrap .exdda-form-title::before {
+	display: none;
+}
+/**
+* Divi 
+*/ 
+.theme-Divi .exdda-review-wrap ul.exdda-review-meta, .theme-Divi .exdda-review-list, .exdda-form-box .exdda-rating-category  { 
+	padding: 0 !important;
+}
+.theme-Divi .exdda-reply-btn .exdda-item-btn::after{
+	display: none;
+}
+.theme-Divi .exdda-form-title small {
+	display: inline-block !important;
+} 
+/**
+* Panpie 
+*/ 
+.theme-panpie li:before {
+	display: none;
+} 
+.theme-panpie .exdda-feedback-list li:before {
+	display: inline-block; 
+}
+
+/**
+* Aeen 
+*/ 
+.exdda-review-wrap > ul {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/** 
+* Fixing: Recommendation, Annonumous
+*/ 
+.exdda-form-check input {
+	margin-right: 0 !important;
+}
+/** 
+* Fixing: Medilink
+*/ 
+.exdda_review_filter {
+	width: auto;
+}
+.exdda-sort-filter {
+	margin-right: 10px;
+}
+#exdda-video-source {
+	color: #6d6d6d;  
+    text-indent: 22px;
+    padding: 10px 5px;
+
+} 

@@ -1,0 +1,39 @@
+{
+  "name": "dda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:therakib7/dda.git"
+  },
+  "homepage": "",
+  "scripts": {
+    "dev": "mix",
+    "prod": "mix -p",
+    "watch": "mix watch",
+    "package": "mix -p && cross-env NODE_ENV=package mix",
+    "zip": "npm run package && cross-env NODE_ENV=zip mix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "archiver": "^5.2.0",
+    "cli-color": "^2.0.0",
+    "cross-env": "^7.0.3",
+    "emojic": "^1.1.16",
+    "fs-extra": "^9.0.1",
+    "laravel-mix": "^6.0.8",
+    "postcss": "^8.1.14",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.37.0",
+    "sass-loader": "^8.0.2",
+    "wp-pot": "^1.9.8"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

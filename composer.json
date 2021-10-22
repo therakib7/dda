@@ -1,0 +1,16 @@
+{
+  "name": "therakib7/dda",
+  "description": "A test form plugin for WordPress",
+  "authors": [
+    {
+      "name": "ExpressoSoft",
+      "email": "therakib7@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Exdda\\": "includes"
+    }
+  }
+}
