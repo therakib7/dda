@@ -4,6 +4,7 @@ namespace Exdda\Controllers;
 
 use Exdda\Controllers\Ajax\AjaxController;
 use Exdda\Controllers\Meta\MetaController;
+use Exdda\Controllers\Option\OptionController;
 use Exdda\Controllers\SettingMenu\SettingMenuController;
 use Exdda\Controllers\PostType\PostTypeController;
 use Exdda\Controllers\Taxonomy\TaxonomyController;
@@ -18,6 +19,7 @@ class MainController {
             new MetaController();
             new WidgetController();
             new SettingMenuController();
+            new OptionController();
         }
         new AjaxController();
     } 
